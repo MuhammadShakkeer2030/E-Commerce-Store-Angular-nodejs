@@ -6,7 +6,7 @@ import { CartService } from 'src/app/services/cart.service';
   selector: 'app-header',
   templateUrl: './header.component.html',
 })
-export class HeaderComponent {
+export class HeaderComponent {  
   private _cart: Cart = { items: [] };
   itemsQuantity = 0;
 

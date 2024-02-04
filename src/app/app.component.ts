@@ -7,6 +7,9 @@ import { CartService } from './services/cart.service';
   templateUrl: './app.component.html',
 })
 export class AppComponent implements OnInit {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
   cart: Cart = { items: [] };
 
   constructor(private cartService: CartService) {}
